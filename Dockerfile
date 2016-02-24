@@ -1,9 +1,6 @@
-﻿
-FROM ubuntu:trusty
-
+﻿FROM ubuntu
 
 MAINTAINER FLZ <liangzhao.fu@hotmail.com>
-
 
 RUN apt-get update \
     && apt-get -y install \
